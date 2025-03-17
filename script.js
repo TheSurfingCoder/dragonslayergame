@@ -108,6 +108,7 @@ function update(location) {
 
 function goTown() {
   update(locations[0]);
+  console.log(go town function is being called);
 }
 
 function goStore() {
@@ -254,6 +255,7 @@ function restart() {
 
 function easterEgg() {
   update(locations[7]);
+  console.log(easter egg function is being called);
 }
 
 function pickTwo() {
